@@ -5,7 +5,7 @@ from it.thexivn.random_maps_together.Data.Constants import SILVER, BRONZE
 
 @dataclass
 class Configurations:
-    game_time_seconds = 3600
+    game_time_seconds = 900
     AT_time = SILVER
     GOLD_time = BRONZE
     min_level_to_start = 1
